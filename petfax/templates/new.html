@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>share fun animal facts!</h1>
+    <div>
+        <p> if you have any interesting facts fill out the form so it can be added to your animal of choice !</p>
+    </div>
+    <div>
+        <form>
+            <label for = "submitter"><h2>name</h2></label>
+            <input name="submitter" type = "text"> 
+            <br/>
+            <label for = "fact"> <h2>Fact</h2> </label>
+            <textarea nam="fact"></textarea>
+            <br/>
+            <input type = "submit" value="submit the fact" >
+        </form>
+    </div>
+        <a href= "/pets"> go back </a>
+
+</body>
+</html>
